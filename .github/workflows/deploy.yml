@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: test and build
-        run: gradle build
+        run: go build .
       - uses: nais/docker-build-push@v0
         id: docker-push
         with:
