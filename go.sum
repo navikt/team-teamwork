@@ -6,8 +6,12 @@ github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+
 github.com/klauspost/compress v1.15.9/go.mod h1:PhcZ0MbTNciWF3rruxRgKxI5NkcHHrHUDtV4Yw2GlzU=
 github.com/klauspost/compress v1.17.6 h1:60eq2E/jlfwQXtvZEeBUYADs+BwKBWURIY+Gj2eRGjI=
 github.com/klauspost/compress v1.17.6/go.mod h1:/dCuZOvVtNoHsyb+cuJD3itjs3NbnF6KH9zAO4BDxPM=
+github.com/klauspost/compress v1.17.9 h1:6KIumPrER1LHsvBVuDa0r5xaG0Es51mhhB9BQB2qeMA=
+github.com/klauspost/compress v1.17.9/go.mod h1:Di0epgTjJY877eYKx5yC51cX2A2Vl2ibi7bDH9ttBbw=
 github.com/navikt/go-leesah v0.0.0-20240208084640-20afea29805f h1:Ejj5HRTtv2PR0Z3JoVja480mTJ0vepH1Y6o4huusfVM=
 github.com/navikt/go-leesah v0.0.0-20240208084640-20afea29805f/go.mod h1:GTpACjEAvqfTvp/ExfM+RSFF+rqGuknwE4/mYovzoJ4=
+github.com/navikt/go-leesah v0.0.0-20240222145654-02946ff8e578 h1:wZxTaeVtKdbb0g+QNAakdTRAoUiKdCrXWzs0yqhofwI=
+github.com/navikt/go-leesah v0.0.0-20240222145654-02946ff8e578/go.mod h1:eipLj+xIokuNQLTRMDYIzX3tP0nSKWirUedVEsMK4XI=
 github.com/pierrec/lz4/v4 v4.1.15/go.mod h1:gZWDp/Ze/IJXGXf23ltt2EXimqmTUXEy0GFuRQyBid4=
 github.com/pierrec/lz4/v4 v4.1.21 h1:yOVMLb6qSIDP67pl/5F7RepeKYu/VmTyEXvuMI5d9mQ=
 github.com/pierrec/lz4/v4 v4.1.21/go.mod h1:gZWDp/Ze/IJXGXf23ltt2EXimqmTUXEy0GFuRQyBid4=
