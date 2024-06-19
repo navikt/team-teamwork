@@ -41,7 +41,31 @@ func Answer(question leesah.Question, log *slog.Logger) (string, bool) {
 	switch question.Category {
 	case "team-registration":
 		return "#371F76", true
+	case "NAV":
+		return Nav(question.Question)
+	case "ping-pong":
+		return Pingpong(question.Question)
 	}
 
+	return "", false
+}
+
+func Nav(q string) (string, bool) {
+	switch q {
+	case "Hvor har vi kontor?":
+		return "Helsfyr", true
+	case "Hva heter NAV-direktøren?":
+		return "Hans Christian Holte", true
+	case "Hva heter applikasjonsplattformen til NAV?":
+		return "nais", true
+	}
+	return "", false
+}
+
+func Pingpong(q string) (string, bool) {
+	switch q {
+	case "ping":
+		return "pong", true
+	}
 	return "", false
 }
