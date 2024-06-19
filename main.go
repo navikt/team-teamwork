@@ -15,7 +15,7 @@ func main() {
 
 	var config leesah.RapidConfig
 	flag.StringVar(&config.Brokers, "brokers", os.Getenv("KAFKA_BROKERS"), "Kafka broker")
-	flag.StringVar(&config.Topic, "topic", os.Getenv("KAFKA_TOPIC"), "Kafka topic")
+	flag.StringVar(&config.Topic, "topic", os.Getenv("QUIZ_TOPIC"), "Quiz topic")
 	flag.StringVar(&config.GroupID, "group-id", os.Getenv("KAFKA_GROUP_ID"), "Kafka group ID")
 	flag.StringVar(&config.KafkaCertPath, "kafka-cert-path", os.Getenv("KAFKA_CERTIFICATE_PATH"), "Path to Kafka certificate")
 	flag.StringVar(&config.KafkaPrivateKeyPath, "kafka-private-key-path", os.Getenv("KAFKA_PRIVATE_KEY_PATH"), "Path to Kafka private key")
